@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<br><br>
+<h2>Registration</h2><br>
+
+<form action="#">
+    <div>
+        <input type="text" placeholder="name" pattern="[a-zA-Z]*">
+    </div>
+    <div>
+        <input type="email" placeholder="email">
+    </div>
+    <div>
+        <input type="number" placeholder="Phone" pattern="[0-9-+]">
+    </div>
+    <br>
+
+    <div>
+        <label>
+
+            <input type="radio" name="age" value="small">
+           1mons-6mons
+        </label>
+        <label>
+
+            <input type="radio" name="age" value="medium">
+         6mons-1.5 years
+        </label>
+
+        <label>
+
+            <input type="radio" name="age" value="large">
+            1,5years- 10years old
+        </label>
+
+    </div>
+    <p>Do you like pets?</p>
+    <label>
+    <input type="checkbox" required>
+       Like
+    </label>
+    <label>
+        <input type="checkbox" required>
+        Don't like
+    </label>
+    <br>
+    <textarea name="Description" style="resize: none;height: 200px; width: 250px"></textarea>
+    <br>
+    <button type="reset">Reset</button>
+    <button type="submit">Send</button>
+</form>
+
+</body>
+</html>
